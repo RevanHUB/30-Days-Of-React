@@ -1,0 +1,140 @@
+* {
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+}
+@keyframes showIt{
+  0% {opacity:0}
+  100% {opacity:1}
+}
+
+.App {
+  text-align: center;
+  background:#f2f2f2;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#modalContainer {
+  /* background:red; */
+  margin:30px 0px 0px 0px;
+  overflow-y:scroll;
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  animation:2s showIt;
+}
+#modalContainer h1.title{
+  text-transform:uppercase;
+  font-size:2rem;
+  margin:0px 0px 20px 0px;
+}
+#modalContainer div {
+  flex-direction:column;
+}
+#modalContainer .colorsContainer {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  background:rgba(0, 0, 0, 0.3);
+  border-radius:5px;
+  width:50vw;
+  color:white;
+  align-items:center;
+  height:auto;
+  padding:30px;
+}
+#modalContainer .colorsContainer div {
+  width:10%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bolder;
+  padding:50px;
+  margin:3px;
+}
+
+#modalContainer .countryList {
+  width:100%;
+  display:flex;
+  align-items:center;
+}
+
+#modalContainer .countryList .country__ {
+  padding:10px;
+  width:50%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between
+
+}
+#modalContainer .countryList .country__ h1 {
+  font-size:1.1rem;
+  text-transform:uppercase;
+  min-width:150px;
+  overflow:hidden;
+  text-align:left;
+  /* background:red; */
+}
+
+#modalContainer .countryList .country__ p {
+  font-size:1.1rem;
+  min-width:150px;
+  margin-left:50px;
+  overflow:hidden;
+  text-align:left;
+  font-weight:bolder;
+  /* background:red; */
+}
+#modalContainer .countryList .country__ .population__bar {
+  
+  width:100%;
+  margin-left:20px;
+  overflow:hidden;
+  
+}
+#modalContainer .countryList .country__ .population__bar .progress__population{
+  background:#FEA400;
+  height:100%;
+  border-radius:5px;
+}
+
+#modalContainer .numbers {
+  width:50vw;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
+#modalContainer .numberContainer {
+  background:green;
+  width:7%;
+  padding:40px;
+  font-size:2rem;
+  margin:3px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+}
+
+[data-numbers="odd"] {
+  background:#FDDB3A !important;
+
+}
+[data-numbers="even"] {
+  background:#21BF73 !important;
+}
+
+[data-numbers="prime"] {
+  background:#FD5E53 !important;
+}

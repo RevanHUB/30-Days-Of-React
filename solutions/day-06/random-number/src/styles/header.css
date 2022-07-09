@@ -1,0 +1,45 @@
+
+
+:root {
+    --background:white;
+}
+header {
+    background:var(--background) ;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:20px 0px 0px 0px;
+    width:calc(auto);
+    border-radius:50px;
+    overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+header div {
+    width:100%;
+    height:auto;
+    border-radius:50px;
+}
+header button {
+    text-transform:capitalize;
+    font-weight:bolder;
+    padding:15px;
+    background:#f2f2f2;
+    border:0px;
+    border-radius:50px;
+    margin:10px;
+    font-size:.9rem;
+    letter-spacing:-.07rem;
+    cursor:pointer;
+}
+.active {
+    /* background:#E76F72; */
+    position:relative;
+    background:#408BBA;
+    animation: sweepLeft .2s linear;
+    transition: all 1s;
+    
+}
+
+.reset {
+    background:white;
+}
