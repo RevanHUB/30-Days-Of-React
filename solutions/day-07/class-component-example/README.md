@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Simple webbased game
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<details> ## Available Scripts
 
 In the project directory, you can run:
 
@@ -67,4 +67,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)</details>
+
+## Preview: 
+
+![indie](https://user-images.githubusercontent.com/84904766/178787599-89c8bc95-3e93-4fa3-83f3-509d7bf5c954.gif)
