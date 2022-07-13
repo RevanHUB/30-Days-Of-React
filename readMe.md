@@ -370,4 +370,4 @@ Congratulations! You have completed the setup you need to get started with React
 
 </details>
  
-# The challengedes are inside  solutions/ folder.
+# The challenges are inside solutions/ folder.
