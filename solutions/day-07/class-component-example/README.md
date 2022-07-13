@@ -1,6 +1,6 @@
 # Simple webbased game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) to practice states and class components.
 
 <details> ## Available Scripts
 
